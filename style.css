@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Scheherazade New', serif;
-    background-color: var(--light-green);
+    background-color: var(yellow);
 }
 
 * {
@@ -48,7 +48,7 @@ body {
   
   .input {
     font-size: 14px;
-    outline: #fff;
+    outline: rgb(236, 21, 21);
     padding: 0.6rem 1rem;
     margin: 1rem;
     border: 2px solid var(--primary-color);
@@ -66,12 +66,12 @@ body {
 #check-button, #next {
     background: var(--darker-color);
     border: none;
-    color: #fff;
+    color: rgb(226, 24, 24);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
-    outline: #fff;
+    outline: rgb(250, 22, 22);
     margin: auto;
     display: block;
   }
@@ -112,7 +112,7 @@ body {
     border-top: 5px solid var(--darker-color);
     padding: 1rem 1rem;
     text-align: center;
-    color: white;
+    color: rgb(118, 14, 255);
     bottom: opx;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .footer .link {
-    color: white;
+    color: rgb(223, 20, 20);
 }
 
 .footer ul {
